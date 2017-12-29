@@ -1,3 +1,9 @@
+$(window).load(function () {
+    // Animate loader off screen
+    $(".se-pre-con").fadeOut("slow");;
+});
+
+
 $(document).ready(function () {
     const apiRoot = 'https://lit-basin-93076.herokuapp.com/v1/task/';
     const trelloApiRoot = 'https://lit-basin-93076.herokuapp.com/v1/trello/';
