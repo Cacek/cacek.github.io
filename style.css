@@ -183,7 +183,7 @@ body {
 }
 
 .datatable__tasks-container:empty::after {
-    content: 'Currently, there are no tasks available.';
+    content: 'Loading tasks from database...';
 }
 
 .template {
@@ -192,7 +192,7 @@ body {
 
 /* Loader */
 
-.no-js #loader {
+/*.no-js #loader {
     display: none;
 }
 
@@ -211,4 +211,4 @@ body {
     height: 100%;
     z-index: 9999;
     background: url(Preloader_3.gif) center no-repeat #fff;
-}
+}*/
